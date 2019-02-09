@@ -1,0 +1,24 @@
+/* define valid recursive types */
+let
+/* define a list */
+type intlist = {hd: int, tl: intlist} 
+
+/* define a tree */
+type tree ={key: int, children: treelist}
+type treelist = {hd: tree, tl: treelist}
+
+var lis:intlist := intlist { hd=0, tl= nil } 
+
+in
+	lis
+end
+
+/* quadric tree */
+let
+    type nodelist = {head : node , tail : nodelist }
+    type node = {key : int , children : nodelist }
+    type tree = node
+    type treelist = nodelist
+in
+
+end

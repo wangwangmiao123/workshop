@@ -1,0 +1,3 @@
+/Volumes/BOOTCAMP/xxxxx/Compiler/lab/static/tiger/chap4/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/BOOTCAMP/xxxxx/Compiler/lab/static/tiger/chap4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/BOOTCAMP/xxxxx/Compiler/lab/static/tiger/chap4/cmake-build-debug/CMakeFiles/chap4.dir

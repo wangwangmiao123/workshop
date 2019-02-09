@@ -1,0 +1,18 @@
+/* an array type and an array variable */
+let
+	type  arrtype = array of int
+	var arr1:arrtype := arrtype [10] of 0
+in
+	arr1
+end
+
+
+/* sum - up tiger program */
+let type myarray =  array of int
+    var v0 : myarray := myarray[100] of 0
+    vat ret : int = 0
+    var i : int
+in
+   while i = 0 to 100
+    do ret = ret + myarray[i]
+end

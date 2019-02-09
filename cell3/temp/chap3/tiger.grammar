@@ -1,0 +1,73 @@
+decs → decs dec 
+decs -> ' '
+
+dec → tydec
+    → vardec
+    → fundec
+
+tydec → type type-id = ty  
+ty  → type-id   
+    → LBRACE tyfields RCRACE
+    → LBRACE RCRACE
+    → ARRAY OF type-id
+
+tyfields  (!!)
+         → id : type-id  
+         → id : type-id COMMA tyfields 
+
+vardec  → var id := exp
+        → var id : type-id := exp
+
+fundec  → function ID ( tyfields ) = exp
+        → function ID ( tyfields) : type-id = exp
+        → function ID ( tyfields) : type-id = exp
+        → function ID () = exp
+
+lvalue  →   id
+        →   lvalue . id
+        →   lvalue [ exp ]
+
+
+exp  → nil
+     → INT
+     → STRING 
+     → ID 
+     → let decs in expseq end
+     → lvalue
+
+expsep  →  expseq SEMI exp  
+
+exp  →  if exp then  
+     →  if exp then else exp
+     →  while exp do exp
+     →  for ID ASSIGN exp to exp DO exp
+     →  BREAK SEMI 
+
+
+/* standard library */
+ifunction print(s : string)
+Print s on standard output.
+function flush()
+Flush the standard output buffer.
+function getchar() : string
+Read a character from standard input; return empty string on end of file.
+function ord(s: string) : int
+Give ASCII value of first character of s; yields -1 if s is empty string.
+function chr(i: int) : string
+Single-character string from ASCII value i; halt program if i out of range.
+function size(s: string) : int
+Number of characters in s.
+function substring(s:string, first:int, n:int) : string
+Substring of string s, starting with character first, n characters long. Characters
+are numbered starting at 0.
+function concat (s1: string, s2: string) : string
+Concatenation of s1 and s2.
+function not(i : integer) : integer
+Return (i=0).
+function exit(i: int)
+Terminate execution with code i.
+
+
+
+
+

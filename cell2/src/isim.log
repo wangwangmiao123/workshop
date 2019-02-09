@@ -1,0 +1,17 @@
+ISim log file
+Running: G:\arch1\sim_mips_isim_beh.exe -intstyle ise -gui -tclbatch isim.cmd -wdb G:/arch1/sim_mips_isim_beh.wdb 
+ISim P.20131013 (signature 0x7708f090)
+----------------------------------------------------------------------
+WARNING:Security:42 - Your software subscription period has lapsed. Your current version of Xilinx tools will continue to function, but you no longer qualify for Xilinx software updates or new releases.
+
+
+----------------------------------------------------------------------
+This is a Full version of ISim.
+Time resolution is 1 ps
+# onerror resume
+# wave add /
+# run 1000 ns
+Simulator is doing circuit initialization process.
+WARNING: File inst_mem.hex referenced on G:/arch1/inst_rom.v at line 13 cannot be opened for reading. Please ensure that this file is available in the current working directory.WARNING: File data_mem.hex referenced on G:/arch1/data_ram.v at line 15 cannot be opened for reading. Please ensure that this file is available in the current working directory.Finished circuit initialization process.
+# run 1.00s
+Stopped at time : 69619100 ns : File "G:/arch1/data_ram.v" Line 18

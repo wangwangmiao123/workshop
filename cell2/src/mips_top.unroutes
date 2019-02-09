@@ -1,0 +1,52 @@
+Release 14.7 - par P.20131013 (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+Mon Oct 16 02:25:22 2017
+
+All signals are completely routed.
+
+WARNING:ParHelpers:362 - There are 5 sourceless signals in this design. This design will not pass the DRC check run by
+   Bitgen.
+
+   BTN_X<0>_OBUF
+   BTN_X<1>_OBUF
+   BTN_X<2>_OBUF
+   BTN_X<3>_OBUF
+   BTN_X<4>_OBUF
+WARNING:ParHelpers:361 - There are 32 loadless signals in this design. This design will cause Bitgen to issue DRC
+   warnings.
+
+   BTN_Y<0>_IBUF
+   BTN_Y<1>_IBUF
+   BTN_Y<2>_IBUF
+   BTN_Y<3>_IBUF
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile11_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile12_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile13_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile14_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile15_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile1_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile21_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile22_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile23_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile24_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile25_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile2_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile3_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile4_RAMD_D1_O
+   MIPS/MIPS_CORE/DATAPATH/REGFILE/Mram_regfile5_RAMD_D1_O
+   SW<0>_IBUF
+   SW<1>_IBUF
+   SW<2>_IBUF
+   SW<3>_IBUF
+   SW<4>_IBUF
+   SW<5>_IBUF
+   SW<6>_IBUF
+   SW<7>_IBUF
+   VGA_DEBUG/Mram_data_buf1_RAMD_D1_O
+   VGA_DEBUG/Mram_data_buf2_RAMD_D1_O
+   VGA_DEBUG/Mram_data_buf3_RAMD_D1_O
+   VGA_DEBUG/Mram_data_buf4_RAMD_D1_O
+   VGA_DEBUG/Mram_data_buf5_RAMD_D1_O
+
+

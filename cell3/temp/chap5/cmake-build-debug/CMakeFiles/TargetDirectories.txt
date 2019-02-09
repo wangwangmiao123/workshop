@@ -1,0 +1,3 @@
+/Volumes/BOOTCAMP/xxxxx/Compiler/lab/zuoye/Group-1/Source/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Volumes/BOOTCAMP/xxxxx/Compiler/lab/zuoye/Group-1/Source/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Volumes/BOOTCAMP/xxxxx/Compiler/lab/zuoye/Group-1/Source/cmake-build-debug/CMakeFiles/pool.dir
