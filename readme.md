@@ -1,5 +1,5 @@
 # Intro
-Each cell stores a project. 
+Each cell holds a project. 
 
 ## Notice
 这里存放本科阶段写的代码的残骸。
