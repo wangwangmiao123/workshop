@@ -22,13 +22,15 @@ module MIO_BUS(
 		output reg counter_we,	//  U10
 		output reg [31:0] Peripheral_in	
 	);
-
+	
+	//
 	reg data_ram_rd;
 	reg GPIOf0000000_rd;
 	reg GPIOe0000000_rd;
 	reg counter_rd;
 	reg [7:0] led_in;
-
+	
+	//
 	always @(*) begin
 		data_ram_we=0;
 		data_ram_rd=0;
@@ -79,5 +81,6 @@ module MIO_BUS(
 			5'bxxx1: Cpu_data4bus = {counter0_out, counter1_out,  counter2_out, 9'h00, led_out, BTN, SW};	//read from SW & BTN
 		endcase
 	end
+
 endmodule
 

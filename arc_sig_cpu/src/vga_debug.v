@@ -9,6 +9,6 @@ module vga_debug(
 	output [6:0] debug_addr,
 	output [11:0] dout
 	
-    );
+);
 	 
 endmodule
